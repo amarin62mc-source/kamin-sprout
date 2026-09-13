@@ -165,7 +165,18 @@ input { font-family: inherit; }
   gap: 10px;
   flex-shrink: 0;
 }
-.logo-img { height: 38px; width: auto; display: block; }
+.logo-img,
+.logo img {
+  height: 38px;
+  max-height: 38px;
+  width: auto;
+  display: block;
+}
+.footer-logo .logo-img,
+.footer-logo img {
+  height: 34px;
+  max-height: 34px;
+}
 .logo-tagline { font-size: 0.7rem; color: var(--green-dark); font-weight: 500; white-space: nowrap; }
 
 .header-search {
@@ -652,7 +663,6 @@ input { font-family: inherit; }
 
 .footer-brand p { margin-top: 14px; font-size: 0.85rem; color: #A9BBAC; max-width: 30ch; }
 .footer-logo { margin-bottom: 4px; }
-.footer-logo .logo-img { height: 34px; }
 
 .footer-col h4 { color: var(--cream); font-size: 0.92rem; margin-bottom: 16px; }
 .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
