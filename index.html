@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kamin Sprout | ร้านต้นไม้และอุปกรณ์การเกษตรครบวงจร</title>
+<meta name="description" content="Kamin Sprout ร้านต้นไม้ กระถาง ปุ๋ย และอุปกรณ์การเกษตรครบวงจร ต้นไม้สวย อุปกรณ์ครบ จบในที่เดียว">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+
+  <div class="header-top">
+    <div class="container header-top-inner">
+
+      <a href="#home" class="logo">
+        <svg class="logo-mark" width="36" height="36" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+          <circle cx="17" cy="17" r="17" fill="var(--green)"/>
+          <path d="M17 24V15" stroke="var(--cream)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M17 15C17 15 10 15.5 10 9.5C16.2 9.5 17 15 17 15Z" fill="var(--cream)"/>
+          <path d="M17 17C17 17 24 16.5 24 11C17.5 11 17 17 17 17Z" fill="var(--cream)"/>
+        </svg>
+        <span class="logo-text">
+          <strong>Kamin Sprout</strong>
+          <small>ปลูกความสุข ให้เติบโตในสังคม</small>
+        </span>
+      </a>
+
+      <div class="header-search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="search" placeholder="ค้นหาต้นไม้ ดิน ปุ๋ย กระถาง อุปกรณ์..." aria-label="ค้นหาสินค้า">
+      </div>
+
+      <div class="header-actions">
+        <button class="account-link" id="accountBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/><path d="M4 20C4 16.6863 7.58172 14 12 14C16.4183 14 20 16.6863 20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <span>เข้าสู่ระบบ / สมัครสมาชิก</span>
+        </button>
+        <button class="cart-link" id="cartBtn">
+          <span class="cart-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+            <span class="cart-count" id="cartCount">0</span>
+          </span>
+          <span>ตะกร้า</span>
+        </button>
+        <button class="nav-toggle" id="navToggle" aria-label="เปิดเมนู" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <nav class="main-nav" id="mainNav" aria-label="เมนูหลัก">
+    <div class="container">
+      <ul>
+        <li><a href="#home" class="nav-link active">หน้าแรก</a></li>
+        <li><a href="#products" class="nav-link">ต้นไม้</a></li>
+        <li><a href="#products" class="nav-link">กระถาง</a></li>
+        <li><a href="#products" class="nav-link">อุปกรณ์การเกษตร</a></li>
+        <li><a href="#products" class="nav-link">อุปกรณ์ปลูกต้นไม้</a></li>
+        <li><a href="#promo" class="nav-link">โปรโมชัน</a></li>
+        <li><a href="#" class="nav-link">บทความ</a></li>
+        <li><a href="#contact" class="nav-link">ติดต่อเรา</a></li>
+      </ul>
+    </div>
+  </nav>
+
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+
+      <div class="hero-content">
+        <p class="hero-tag">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21C12 21 5 16.5 5 10.5C5 6.9 7.7 4.5 11 4.5C11.4 4.5 11.7 4.6 12 4.7C12.3 4.6 12.6 4.5 13 4.5C16.3 4.5 19 6.9 19 10.5C19 16.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          ร้านต้นไม้และอุปกรณ์การเกษตร
+        </p>
+        <h1 class="hero-title">Kamin Sprout</h1>
+        <p class="hero-subtitle">ต้นไม้สวย อุปกรณ์ครบ จบในที่เดียว</p>
+        <blockquote class="hero-quote">"ปลูกต้นไม้...ไม่ใช่แค่เพียงเพื่อความสวยงาม แต่คือการเติมความสุขให้ชีวิต"</blockquote>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">ช้อปเลย
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-badge hero-badge-top">ต้นไม้สวย เติบโตไปด้วยกัน</div>
+    <div class="hero-badge hero-badge-bottom">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 8H18L19 21H5L6 8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8C9 5 10.5 3 12 3C13.5 3 15 5 15 8" stroke="currentColor" stroke-width="1.8"/></svg>
+      <span>เริ่มปลูกสวนในบ้านคุณ</span>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORY STRIP ============ -->
+  <section class="categories">
+    <div class="container categories-grid">
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-plant.png" alt="" class="category-icon-img">
+        </span>
+        <h3>ต้นไม้สวยงาม</h3>
+        <p>พืช ไม้ประดับ ไม้ใบ</p>
+      </a>
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-pot.png" alt="" class="category-icon-img">
+        </span>
+        <h3>กระถาง</h3>
+        <p>เซรามิก พลาสติก ดินเผา</p>
+      </a>
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-tools.png" alt="" class="category-icon-img">
+        </span>
+        <h3>อุปกรณ์การเกษตร</h3>
+        <p>จอบ พลั่ว กรรไกร ไม้ค้ำ</p>
+      </a>
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-supplies.png" alt="" class="category-icon-img">
+        </span>
+        <h3>อุปกรณ์ปลูกต้นไม้</h3>
+        <p>ดินปลูก ปุ๋ย วัสดุปลูก</p>
+      </a>
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-rare-plant.png" alt="" class="category-icon-img">
+        </span>
+        <h3>ไม้ประดับพิเศษ</h3>
+        <p>ไม้แคระ ไม้หายาก</p>
+      </a>
+
+      <a href="#products" class="category-item reveal">
+        <span class="category-icon">
+          <img src="assets/icon-featured.png" alt="" class="category-icon-img">
+        </span>
+        <h3>สินค้าแนะนำ</h3>
+        <p>คัดสรรคุณภาพ</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="products" id="products">
+    <div class="container">
+
+      <div class="section-head">
+        <h2><svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true" class="section-head-icon"><path d="M12 21C12 21 5 16.5 5 10.5C5 6.9 7.7 4.5 11 4.5C11.4 4.5 11.7 4.6 12 4.7C12.3 4.6 12.6 4.5 13 4.5C16.3 4.5 19 6.9 19 10.5C19 16.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>สินค้าขายดี</h2>
+        <a href="#" class="link-arrow">ดูทั้งหมด
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card reveal">
+          <span class="product-tag tag-discount">ลดราคา</span>
+          <button class="wishlist-btn" aria-label="เพิ่มต้นพลูด่างในรายการโปรด" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20C12 20 4 14.5 4 8.9C4 6.2 6.2 4 9 4C10.5 4 11.6 4.7 12 5.6C12.4 4.7 13.5 4 15 4C17.8 4 20 6.2 20 8.9C20 14.5 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-media" style="--tint:var(--sage)">
+            <svg viewBox="0 0 120 100" aria-hidden="true">
+              <rect x="10" y="76" width="100" height="16" rx="6" fill="var(--wood)"/>
+              <path d="M48 76L72 76L78 56L42 56Z" fill="var(--terracotta)"/>
+              <path d="M42 56L78 56" stroke="var(--terracotta-dark)" stroke-width="2"/>
+              <path d="M60 56C59 46 61 38 60 28" stroke="var(--green-dark)" stroke-width="4" stroke-linecap="round" fill="none"/>
+              <ellipse cx="48" cy="26" rx="13" ry="8" fill="var(--green)" transform="rotate(-20 48 26)"/>
+              <ellipse cx="50" cy="24" rx="5" ry="3" fill="var(--green-light)" opacity="0.7" transform="rotate(-20 50 24)"/>
+              <ellipse cx="72" cy="26" rx="13" ry="8" fill="var(--green-light)" transform="rotate(20 72 26)"/>
+              <path d="M46 58C34 64 26 74 22 84" stroke="var(--green-dark)" stroke-width="3" stroke-linecap="round" fill="none"/>
+              <ellipse cx="28" cy="74" rx="7" ry="4.5" fill="var(--green-light)" transform="rotate(-30 28 74)"/>
+              <ellipse cx="20" cy="86" rx="6" ry="4" fill="var(--green)" transform="rotate(-40 20 86)"/>
+            </svg>
+          </div>
+          <h3>ต้นพลูด่าง</h3>
+          <p>ไม้ฟอกอากาศ ดูแลง่าย โตไว</p>
+          <div class="product-rating">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L14.8 8.6L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.6L12 2Z"/></svg>
+            <span>4.9 (1.2k)</span>
+          </div>
+          <div class="product-footer">
+            <span class="price">฿45</span>
+            <button class="btn-cart" data-name="ต้นพลูด่าง" data-price="45" aria-label="เพิ่มต้นพลูด่างลงตะกร้า">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+              ใส่ตะกร้า
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <span class="product-tag tag-recommend">แนะนำ</span>
+          <button class="wishlist-btn" aria-label="เพิ่มต้นมอนสเตอร่าในรายการโปรด" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20C12 20 4 14.5 4 8.9C4 6.2 6.2 4 9 4C10.5 4 11.6 4.7 12 5.6C12.4 4.7 13.5 4 15 4C17.8 4 20 6.2 20 8.9C20 14.5 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-media" style="--tint:var(--sand)">
+            <svg viewBox="0 0 120 100" aria-hidden="true">
+              <rect x="10" y="76" width="100" height="16" rx="6" fill="var(--wood)"/>
+              <path d="M48 76L72 76L78 56L42 56Z" fill="var(--terracotta)"/>
+              <path d="M42 56L78 56" stroke="var(--terracotta-dark)" stroke-width="2"/>
+              <path d="M60 56C59 44 61 34 60 22" stroke="var(--green-dark)" stroke-width="4" stroke-linecap="round" fill="none"/>
+              <path d="M60 14C48 14 38 24 40 36C42 46 52 50 60 48C68 50 78 46 80 36C82 24 72 14 60 14Z" fill="var(--green)"/>
+              <ellipse cx="52" cy="28" rx="4" ry="3" fill="var(--tint)"/>
+              <ellipse cx="70" cy="30" rx="4" ry="3" fill="var(--tint)"/>
+              <ellipse cx="84" cy="40" rx="9" ry="6" fill="var(--green-light)" transform="rotate(20 84 40)"/>
+            </svg>
+          </div>
+          <h3>ต้นมอนสเตอร่า</h3>
+          <p>ใบด่างสวยเป็นเอกลักษณ์ ไม้ประธาน</p>
+          <div class="product-rating">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L14.8 8.6L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.6L12 2Z"/></svg>
+            <span>4.8 (856)</span>
+          </div>
+          <div class="product-footer">
+            <span class="price">฿250</span>
+            <button class="btn-cart" data-name="ต้นมอนสเตอร่า" data-price="250" aria-label="เพิ่มต้นมอนสเตอร่าลงตะกร้า">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+              ใส่ตะกร้า
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <span class="product-tag tag-bestseller">ขายดี</span>
+          <button class="wishlist-btn" aria-label="เพิ่มต้นหูช้างในรายการโปรด" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20C12 20 4 14.5 4 8.9C4 6.2 6.2 4 9 4C10.5 4 11.6 4.7 12 5.6C12.4 4.7 13.5 4 15 4C17.8 4 20 6.2 20 8.9C20 14.5 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-media" style="--tint:var(--sage)">
+            <svg viewBox="0 0 120 100" aria-hidden="true">
+              <rect x="10" y="76" width="100" height="16" rx="6" fill="var(--wood)"/>
+              <path d="M46 76L74 76L80 56L40 56Z" fill="var(--terracotta)"/>
+              <path d="M40 56L80 56" stroke="var(--terracotta-dark)" stroke-width="2"/>
+              <path d="M60 56C59 46 61 36 60 26" stroke="var(--green-dark)" stroke-width="4" stroke-linecap="round" fill="none"/>
+              <path d="M60 10C48 16 40 30 46 40C50 47 60 46 63 38C66 30 62 16 60 10Z" fill="var(--green)"/>
+              <path d="M60 12C64 20 66 32 62 38" stroke="var(--green-dark)" stroke-width="1.5" fill="none" opacity="0.6"/>
+              <path d="M62 30C50 28 40 34 38 44C36 52 46 54 51 46C55 40 60 34 62 30Z" fill="var(--green-light)"/>
+            </svg>
+          </div>
+          <h3>ต้นหูช้าง</h3>
+          <p>ใบใหญ่โดดเด่น เติมความร่มรื่น</p>
+          <div class="product-rating">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L14.8 8.6L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.6L12 2Z"/></svg>
+            <span>4.9 (742)</span>
+          </div>
+          <div class="product-footer">
+            <span class="price">฿60</span>
+            <button class="btn-cart" data-name="ต้นหูช้าง" data-price="60" aria-label="เพิ่มต้นหูช้างลงตะกร้า">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+              ใส่ตะกร้า
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <span class="product-tag tag-new">สินค้าใหม่</span>
+          <button class="wishlist-btn" aria-label="เพิ่มต้นเฟื่องฟ้าใบด่างในรายการโปรด" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20C12 20 4 14.5 4 8.9C4 6.2 6.2 4 9 4C10.5 4 11.6 4.7 12 5.6C12.4 4.7 13.5 4 15 4C17.8 4 20 6.2 20 8.9C20 14.5 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-media" style="--tint:var(--sand)">
+            <svg viewBox="0 0 120 100" aria-hidden="true">
+              <rect x="10" y="76" width="100" height="16" rx="6" fill="var(--wood)"/>
+              <path d="M48 76L72 76L78 56L42 56Z" fill="var(--terracotta)"/>
+              <path d="M42 56L78 56" stroke="var(--terracotta-dark)" stroke-width="2"/>
+              <path d="M60 56C60 48 60 40 60 32" stroke="var(--green-dark)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+              <path d="M60 44C52 40 44 42 42 34" stroke="var(--green-dark)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M60 36C68 32 76 34 78 26" stroke="var(--green-dark)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <ellipse cx="42" cy="32" rx="6" ry="4" fill="var(--green-light)" transform="rotate(-20 42 32)"/>
+              <ellipse cx="78" cy="24" rx="6" ry="4" fill="var(--green)" transform="rotate(20 78 24)"/>
+              <ellipse cx="60" cy="26" rx="6" ry="4" fill="var(--green-light)"/>
+              <circle cx="46" cy="24" r="5" fill="#D9678F"/>
+              <circle cx="56" cy="14" r="5" fill="#E389A8"/>
+              <circle cx="68" cy="20" r="5" fill="#D9678F"/>
+            </svg>
+          </div>
+          <h3>ต้นเฟื่องฟ้าใบด่าง</h3>
+          <p>ใบด่างสวย ดอกสีสันสดใส</p>
+          <div class="product-rating">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L14.8 8.6L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.6L12 2Z"/></svg>
+            <span>4.7 (421)</span>
+          </div>
+          <div class="product-footer">
+            <span class="price">฿80</span>
+            <button class="btn-cart" data-name="ต้นเฟื่องฟ้าใบด่าง" data-price="80" aria-label="เพิ่มต้นเฟื่องฟ้าใบด่างลงตะกร้า">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+              ใส่ตะกร้า
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card reveal">
+          <span class="product-tag tag-featured">แนะนำ</span>
+          <button class="wishlist-btn" aria-label="เพิ่มกระถางเซรามิกในรายการโปรด" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20C12 20 4 14.5 4 8.9C4 6.2 6.2 4 9 4C10.5 4 11.6 4.7 12 5.6C12.4 4.7 13.5 4 15 4C17.8 4 20 6.2 20 8.9C20 14.5 12 20 12 20Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="product-media" style="--tint:var(--sage)">
+            <svg viewBox="0 0 120 100" aria-hidden="true">
+              <rect x="10" y="76" width="100" height="16" rx="6" fill="var(--wood)"/>
+              <path d="M42 76L78 76L84 48L36 48Z" fill="var(--white)" stroke="var(--sand)" stroke-width="1.5"/>
+              <path d="M38 60L82 60" stroke="var(--green-light)" stroke-width="4"/>
+              <path d="M36 48L84 48L81 40L39 40Z" fill="var(--sage)"/>
+            </svg>
+          </div>
+          <h3>กระถางเซรามิกลายเส้น</h3>
+          <p>ทรงคลาสสิก เข้าได้กับทุกต้นไม้</p>
+          <div class="product-rating">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="var(--gold)" aria-hidden="true"><path d="M12 2L14.8 8.6L22 9.3L16.5 14L18.2 21L12 17.3L5.8 21L7.5 14L2 9.3L9.2 8.6L12 2Z"/></svg>
+            <span>4.8 (603)</span>
+          </div>
+          <div class="product-footer">
+            <span class="price">฿35</span>
+            <button class="btn-cart" data-name="กระถางเซรามิกลายเส้น" data-price="35" aria-label="เพิ่มกระถางเซรามิกลงตะกร้า">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 4H5L6.5 14.5C6.6 15.3 7.3 16 8.1 16H17.5C18.3 16 19 15.3 19.1 14.5L20 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></svg>
+              ใส่ตะกร้า
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROMO BANNERS ============ -->
+  <section class="promo" id="promo">
+    <div class="container promo-grid">
+
+      <article class="promo-card reveal" style="--promo-bg:var(--sage)">
+        <svg class="promo-watermark" width="150" height="150" viewBox="0 0 120 120" aria-hidden="true">
+          <line x1="30" y1="20" x2="90" y2="90" stroke="currentColor" stroke-width="12" stroke-linecap="round"/>
+          <line x1="90" y1="20" x2="30" y2="90" stroke="currentColor" stroke-width="12" stroke-linecap="round"/>
+          <circle cx="60" cy="55" r="7" fill="currentColor"/>
+        </svg>
+        <div class="promo-text">
+          <h3>อุปกรณ์การเกษตร</h3>
+          <p>คุณภาพดี ใช้งานทนทาน</p>
+          <a href="#products" class="link-arrow">ดูสินค้า
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="promo-card promo-photo reveal" style="--promo-photo:url('assets/promo-soil.jpg')">
+        <div class="promo-text">
+          <h3>ดินปลูก &amp; ปุ๋ย</h3>
+          <p>บำรุงดิน ให้พืชโตสด</p>
+          <a href="#products" class="link-arrow">ดูสินค้า
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="promo-card reveal" style="--promo-bg:#EFE0D3">
+        <svg class="promo-watermark" width="150" height="150" viewBox="0 0 120 120" aria-hidden="true">
+          <path d="M20 100L55 100L60 72L15 72Z" fill="currentColor"/>
+          <path d="M62 100L100 100L106 60L56 60Z" fill="currentColor"/>
+          <path d="M102 100L124 100L128 84L98 84Z" fill="currentColor"/>
+        </svg>
+        <div class="promo-text">
+          <h3>กระถางสวย ๆ</h3>
+          <p>เติมเสน่ห์ให้บ้านคุณ</p>
+          <a href="#products" class="link-arrow">เลือกซื้อ
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="trust-strip">
+    <div class="container trust-grid">
+
+      <div class="trust-item reveal">
+        <span class="trust-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 7H14V16H3V7Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M14 10H18L21 13V16H14V10Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="7" cy="18.5" r="1.7" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="18.5" r="1.7" stroke="currentColor" stroke-width="1.8"/></svg>
+        </span>
+        <div><strong>จัดส่งทั่วไทย</strong><span>รวดเร็ว ปลอดภัย</span></div>
+      </div>
+
+      <div class="trust-item reveal">
+        <span class="trust-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3L19 6V11C19 15.5 16 18.8 12 21C8 18.8 5 15.5 5 11V6L12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 12L11 14L15.5 9.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span>
+        <div><strong>สินค้าคุณภาพ</strong><span>คัดสรรมาอย่างดี</span></div>
+      </div>
+
+      <div class="trust-item reveal">
+        <span class="trust-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21C12 21 5 16.5 5 10.5C5 6.9 7.7 4.5 11 4.5C11.4 4.5 11.7 4.6 12 4.7C12.3 4.6 12.6 4.5 13 4.5C16.3 4.5 19 6.9 19 10.5C19 16.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </span>
+        <div><strong>ราคายุติธรรม</strong><span>คุ้มค่าทุกการซื้อ</span></div>
+      </div>
+
+      <div class="trust-item reveal">
+        <span class="trust-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5H20V16H8L4 19V5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </span>
+        <div><strong>บริการหลังการขาย</strong><span>พร้อมดูแลคุณ</span></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / CTA ============ -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <h2>พร้อมเริ่มปลูกแล้วหรือยัง?</h2>
+      <p>สั่งซื้อสินค้าและติดตามเราได้ผ่านช่องทางเหล่านี้</p>
+      <div class="contact-channels">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="channel-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          Instagram
+        </a>
+        <a href="https://lazada.co.th" target="_blank" rel="noopener" class="channel-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 8L12 4L19 8V16L12 20L5 16V8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M5 8L12 12L19 8" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M12 12V20" stroke="currentColor" stroke-width="1.8"/></svg>
+          Lazada
+        </a>
+        <a href="https://line.me" target="_blank" rel="noopener" class="channel-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11C2 15 5.6 18.3 10.4 18.9C10.7 19 11 19.3 10.9 19.7L10.5 21.5C10.4 22 10.9 22.3 11.3 22.1L15.8 19.3C19.5 18.3 22 14.9 22 11C22 6.6 17.5 3 12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          LINE
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+
+    <div class="footer-brand">
+      <a href="#home" class="logo footer-logo">
+        <svg class="logo-mark" width="30" height="30" viewBox="0 0 34 34" fill="none" aria-hidden="true">
+          <circle cx="17" cy="17" r="17" fill="var(--green-light)"/>
+          <path d="M17 24V15" stroke="var(--ink)" stroke-width="2" stroke-linecap="round"/>
+          <path d="M17 15C17 15 10 15.5 10 9.5C16.2 9.5 17 15 17 15Z" fill="var(--ink)"/>
+          <path d="M17 17C17 17 24 16.5 24 11C17.5 11 17 17 17 17Z" fill="var(--ink)"/>
+        </svg>
+        <span>Kamin Sprout</span>
+      </a>
+      <p>ต้นไม้ อุปกรณ์ และแรงบันดาลใจ ในการสร้างพื้นที่สีเขียวของคุณ</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>เมนู</h4>
+      <ul>
+        <li><a href="#home">หน้าแรก</a></li>
+        <li><a href="#products">สินค้า</a></li>
+        <li><a href="#promo">โปรโมชัน</a></li>
+        <li><a href="#contact">ติดต่อเรา</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>หมวดหมู่</h4>
+      <ul>
+        <li><a href="#products">ต้นไม้</a></li>
+        <li><a href="#products">กระถาง</a></li>
+        <li><a href="#products">อุปกรณ์การเกษตร</a></li>
+        <li><a href="#products">อุปกรณ์ปลูกต้นไม้</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>ช่องทางการสั่งซื้อ</h4>
+      <ul>
+        <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://lazada.co.th" target="_blank" rel="noopener">Lazada</a></li>
+        <li><a href="https://line.me" target="_blank" rel="noopener">LINE</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-social">
+      <h4>ติดตามเรา</h4>
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook ของ Kamin Sprout">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M14 9H16V6H14C12.3 6 11 7.3 11 9V11H9V14H11V21H14V14H16L17 11H14V9Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://m.me" target="_blank" rel="noopener" aria-label="Messenger ของ Kamin Sprout">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3C6.9 3 3 6.6 3 11.3C3 13.9 4.3 16.2 6.4 17.7V21L9.6 19.2C10.4 19.4 11.2 19.5 12 19.5C17.1 19.5 21 15.9 21 11.3C21 6.6 17.1 3 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M7.5 12.8L10.5 9.8L13.2 12L16.5 9.8L13 13.2L10.3 11L7.5 12.8Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://line.me" target="_blank" rel="noopener" aria-label="LINE ของ Kamin Sprout">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3C6.5 3 2 6.6 2 11C2 15 5.6 18.3 10.4 18.9C10.7 19 11 19.3 10.9 19.7L10.5 21.5C10.4 22 10.9 22.3 11.3 22.1L15.8 19.3C19.5 18.3 22 14.9 22 11C22 6.6 17.5 3 12 3Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram ของ Kamin Sprout">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube ของ Kamin Sprout">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="6" width="18" height="12" rx="4" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 9.5L15 12L10.5 14.5V9.5Z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Kamin Sprout. สงวนลิขสิทธิ์.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
