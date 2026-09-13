@@ -743,14 +743,15 @@ input { font-family: inherit; }
   .nav-toggle { display: flex; }
 
   .hero {
-    min-height: 400px;
+    min-height: 460px;
     align-items: flex-start;
     padding-top: 40px;
     background-image:
-      linear-gradient(to bottom, var(--cream) 0%, var(--cream) 55%, rgba(250,247,239,0.45) 78%, rgba(250,247,239,0.05) 100%),
+      linear-gradient(to bottom, var(--cream) 0px, var(--cream) 360px, rgba(250,247,239,0.5) 410px, rgba(250,247,239,0.05) 460px),
       url('assets/hero-plants.jpg');
     background-position: center 68%;
   }
+  .hero-actions { margin-bottom: 20px; }
   .hero-badge-top { display: none; }
   .hero-badge-bottom { bottom: 16px; right: 16px; }
 
@@ -768,7 +769,7 @@ input { font-family: inherit; }
   .account-link span, .cart-link span { display: none; }
   .logo-tagline { display: none; }
 
-  .hero { min-height: 480px; }
+  .hero { min-height: 520px; }
 }
 
 @media (max-width: 420px) {
