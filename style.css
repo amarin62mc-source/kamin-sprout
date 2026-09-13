@@ -742,8 +742,16 @@ input { font-family: inherit; }
   .main-nav li { padding: 10px 0; }
   .nav-toggle { display: flex; }
 
-  .hero { min-height: 320px; background-position: 78% center; }
-  .hero-badge-top { top: 16px; right: 16px; }
+  .hero {
+    min-height: 400px;
+    align-items: flex-start;
+    padding-top: 40px;
+    background-image:
+      linear-gradient(to bottom, var(--cream) 0%, var(--cream) 55%, rgba(250,247,239,0.45) 78%, rgba(250,247,239,0.05) 100%),
+      url('assets/hero-plants.jpg');
+    background-position: center 68%;
+  }
+  .hero-badge-top { top: auto; bottom: 92px; right: 16px; }
   .hero-badge-bottom { bottom: 16px; right: 16px; }
 
   .promo-grid { grid-template-columns: 1fr; }
@@ -760,17 +768,8 @@ input { font-family: inherit; }
   .account-link span, .cart-link span { display: none; }
   .logo-tagline { display: none; }
 
-  .hero {
-    min-height: 480px;
-    align-items: flex-start;
-    padding-top: 44px;
-    background-image:
-      linear-gradient(to bottom, var(--cream) 0%, var(--cream) 56%, rgba(250,247,239,0.45) 78%, rgba(250,247,239,0.05) 100%),
-      url('assets/hero-plants.jpg');
-    background-position: center 68%;
-  }
-  .hero-badge-top { top: auto; bottom: 108px; right: 16px; }
-  .hero-badge-bottom { bottom: 16px; right: 16px; }
+  .hero { min-height: 480px; }
+  .hero-badge-top { bottom: 108px; }
 }
 
 @media (max-width: 420px) {
